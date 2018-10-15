@@ -1,28 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
+import Hello from './Hello'
+import Skills from './Skills'
+import WhoAmI from './WhoAmI'
+import WhereICameFrom from './WhereICameFrom'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            I like <code>src/App.js</code> to eat pudding.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Hello/>
+        <WhoAmI/>
+        <WhereICameFrom/>
+        <Skills/>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
