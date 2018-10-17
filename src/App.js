@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import './App.css'
 import Hello from './Hello'
 import Skills from './Skills'
+import RecentWork from './RecentWork'
 import WhoAmI from './WhoAmI'
-import WhereICameFrom from './WhereICameFrom'
+import StayConnected from './StayConnected'
 
 class App extends Component {
   render() {
@@ -11,8 +12,9 @@ class App extends Component {
       <div className="App">
         <Hello/>
         <WhoAmI/>
-        <WhereICameFrom/>
         <Skills/>
+        <RecentWork/>
+        <StayConnected/>
       </div>
     )
   }
