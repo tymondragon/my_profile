@@ -1,9 +1,12 @@
 import React from 'react'
+// import Menu from './Menu'
 
-const WhoAmI = () => {
+
+const WhoAmI = ({ scrollTo }) => {
 
   return(
     <div className="WhoAmI">
+      {/* <Menu scrollTo={ scrollTo } /> */}
       <br></br>
       Who Am I?<br></br>
       • I am a Software Developer<br></br>
@@ -20,13 +23,12 @@ const WhoAmI = () => {
       My Previous Profession<br></br>
       • Goldsmithing<br></br>
       • Graduate With A B.F.A. From Colorado State University<br></br>
-       This Is Where I Discovered The Love Of The Craft
+      This Is Where I Discovered The Love Of The Craft
       <p>
-        Why I Changed Careers<br></br>
-        • I Realized That Writing Code Satifies The Same Needs Of Being Creative<br></br>
-          And There Are Endless Possibilities For Development!!<br></br>
+      Why I Changed Careers<br></br>
+      • I Realized That Writing Code Satifies The Same Needs Of Being Creative<br></br>
+      And There Are Endless Possibilities For Development!!<br></br>
       </p>
-
     </div>
   )
 }
