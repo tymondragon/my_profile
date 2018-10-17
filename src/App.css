@@ -12,7 +12,7 @@
   animation: App-skull2-spin infinite 20s linear;
   height: 15vmin;
   position: relative;
-  animation-duration: 10s;
+  animation-duration: 30s;
   animation-delay: 2s
 }
 
@@ -27,8 +27,20 @@
   color: white;
 }
 
-.Skills {
+.RecentWork {
   background-color: #2BACB5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.Skills {
+  background-color: #E74C3C;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,18 +53,7 @@
 
 .WhoAmI {
   background-color: #44C650;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.WhereICameFrom {
-  background-color: #E74C3C;
-  min-height: 100vh;
+  min-height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,9 +82,9 @@
   to {
     transform: rotate(360deg);
   }
-  0%   {left:0vh; top:0vh;}
+  0%   {left:-25vh; top:0vh;}
   25%  {left:25vh; top:0vh;}
-  50%  {left:25vh; top:25vh;}
-  75%  {left:0vh; top:25vh;}
-  100% {left:0vh; top:0vh;}
+  50%  {left:25vh; top:300vh;}
+  75%  {left:-25vh; top:300vh;}
+  100% {left:-25vh; top:0vh;}
 }
