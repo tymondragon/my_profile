@@ -3,14 +3,14 @@ import React from 'react'
 const RecentWork = () => {
 
   return(
-    <div className=" RecentWork ">
+    <div className="page recent-work ">
       <br></br>
       <p>
       Recent Work<br></br>
-      • FakerFact<br></br>
-      • FootNotes<br></br>
-      • SplattAR<br></br>
       • Let's Play Memory!<br></br>
+      • FootNotes<br></br>
+      • FakerFact<br></br>
+      • SplattAR<br></br>
       </p>
     </div>
   )

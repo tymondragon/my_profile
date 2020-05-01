@@ -1,4 +1,5 @@
 .App {
+
   text-align: center;
 }
 
@@ -8,65 +9,71 @@
   position: relative;
   animation-duration: 10s;
 } */
-.App-skull2{
-  /* animation: App-skull2-spin infinite 20s linear; */
-  height: 15vmin;
-  position: relative;
-  /* animation-duration: 30s;
-  animation-delay: 2s */
-}
-ul.sticky {
+
+div.sticky {
+    display: flex;
+    flex-direction: column;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding: 50px;
+    /* padding: 50px; */
+    min-height: 100vh;
+    min-width: 15vw;
     font-size: 20px;
-    margin-left: 0px;
+    /* margin-left: 30px; */
+    z-index: 1;
 }
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .header {
   background-color: #3498DB;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.RecentWork {
+.recent-work {
   background-color: #2BACB5;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-
 }
 
-.Skills {
+.stay-connected {
+  background-color: #ffef35;
+  color: black;
+}
+
+.skills {
   background-color: #E74C3C;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-
 }
 
-.WhoAmI {
+.who-am-i {
   background-color: #44C650;
-  min-height: 200vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.wrapper{
+  position:relative;
+}
+
+.left {
+  width:20%;
+  position:absolute;
+  float: left;
+}
+
+.right {
+  width:80%;
+  right:0;
+  position:absolute;
+}
+
+.transparent {
+ background:#7f7f7f;
+ background:rgba(255,255,255,0.5);
 }
 
 @keyframes App-skull-spin {

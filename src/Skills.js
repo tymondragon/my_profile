@@ -2,16 +2,16 @@ import React from 'react'
 
 const Skills = () => {
 
-  return(
-    <div className=" Skills ">
+  return (
+    <div className=" skills page">
       <br></br>
       <p>
-      Skills <br></br>
+        Skills <br></br>
       Front End<br></br>
-      • JavaScript | ES6<br></br>
+      • JavaScript | ES5 | ES6<br></br>
       • React.Js | Redux<br></br>
       • React Native <br></br>
-      • Swift | Xcode <br></br>
+      • Angular <br></br>
       Back End<br></br>
       • Node.Js<br></br>
       • Express.Js<br></br>
