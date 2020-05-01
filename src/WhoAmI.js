@@ -1,11 +1,9 @@
 import React from 'react'
-// import Menu from './Menu'
 
-
-const WhoAmI = ({ scrollTo }) => {
+const WhoAmI = () => {
 
   return(
-    <div className="WhoAmI">
+    <div className="who-am-i page">
       {/* <Menu scrollTo={ scrollTo } /> */}
       <br></br>
       Who Am I?<br></br>
@@ -26,8 +24,8 @@ const WhoAmI = ({ scrollTo }) => {
       This Is Where I Discovered The Love Of The Craft
       <p>
       Why I Changed Careers<br></br>
-      • I Realized That Writing Code Satifies The Same Needs Of Being Creative<br></br>
-      And There Are Endless Possibilities For Development!!<br></br>
+      I Realized That Writing Code Satifies The Same Needs Of Being Creative<br></br>
+      And There Are Endless Possibilities For Development!<br></br>
       </p>
     </div>
   )
