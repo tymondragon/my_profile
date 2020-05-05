@@ -4,7 +4,7 @@ import Hello from './Hello/Hello'
 import Skills from './Skills'
 import RecentWork from './RecentWork'
 import WhoAmI from './WhoAmI'
-import StayConnected from './StayConnected'
+import StayConnected from './StayConnected/StayConnected'
 import Menu from './Menu/Menu'
 import { Element , Events, animateScroll as scroll, scroller } from 'react-scroll'
 class App extends Component {
