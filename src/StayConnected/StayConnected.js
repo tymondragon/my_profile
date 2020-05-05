@@ -1,15 +1,14 @@
 import React from 'react'
 import Pdf from '../../src/assets/tm_resume.pdf'
+import './StayConnected.css'
+
 const StayConnected = () => {
   return(
-    <div className="stay-connected page">
-      <br></br>
-      <p>
-        Stay Connected!
-      </p>
-      <ul>
+    <div className="connected-page hello">
+    {/* <div className="stay-connected page hello"> */}
+      <ul id="navlist">
           <li>
-            <a href="mailto:tymondragon@gmail.com">Email</a>
+            <a href="mailto:hello@tymondragon.com">Email</a>
           </li>
           <li>
             <a href={Pdf} target="_blank">Resumé</a>
