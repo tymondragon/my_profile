@@ -67,15 +67,15 @@ class App extends Component {
           <Element name="hello">
             <Hello/>
           </Element>
-          <Element name="whoami">
+          {/* <Element name="whoami">
             <WhoAmI/>
           </Element>
           <Element name="skills">
-            <Skills/>
+          <Skills />
           </Element>
           <Element name="recentwork">
             <RecentWork/>
-          </Element>
+          </Element> */}
           <Element name="stayconnected">
             <StayConnected/>
           </Element>
