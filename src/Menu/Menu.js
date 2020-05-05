@@ -3,10 +3,10 @@ import './Menu.css'
 
 const Menu = ({scrollTo}) => {
     return (
-      <div className=" sticky left transparent ">
+      <div className="sticky left transparent ">
         <ul>
           <li>
-            <a onClick={(e)=>{scrollTo(e)}} id="hello">Hello</a>
+            <a onClick={(e) => { scrollTo(e) }} id="hello">Hello</a>
           </li>
           <li>
             <a onClick={(e)=>{scrollTo(e)}} id="whoami">Who Am I?</a></li>
