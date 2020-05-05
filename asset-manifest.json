@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tymondragon/static/css/main.9aaacb97.chunk.css",
+    "main.js": "/tymondragon/static/js/main.f3e65583.chunk.js",
+    "main.js.map": "/tymondragon/static/js/main.f3e65583.chunk.js.map",
+    "runtime-main.js": "/tymondragon/static/js/runtime-main.b94c1463.js",
+    "runtime-main.js.map": "/tymondragon/static/js/runtime-main.b94c1463.js.map",
+    "static/js/2.d3a38872.chunk.js": "/tymondragon/static/js/2.d3a38872.chunk.js",
+    "static/js/2.d3a38872.chunk.js.map": "/tymondragon/static/js/2.d3a38872.chunk.js.map",
+    "index.html": "/tymondragon/index.html",
+    "precache-manifest.d063969909281c6630283b6069b80db0.js": "/tymondragon/precache-manifest.d063969909281c6630283b6069b80db0.js",
+    "service-worker.js": "/tymondragon/service-worker.js",
+    "static/css/main.9aaacb97.chunk.css.map": "/tymondragon/static/css/main.9aaacb97.chunk.css.map",
+    "static/js/2.d3a38872.chunk.js.LICENSE.txt": "/tymondragon/static/js/2.d3a38872.chunk.js.LICENSE.txt",
+    "static/media/deep_ty.jpg": "/tymondragon/static/media/deep_ty.84965554.jpg",
+    "static/media/memory.png": "/tymondragon/static/media/memory.3ecd410a.png",
+    "static/media/tm_resume.pdf": "/tymondragon/static/media/tm_resume.c851b25a.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b94c1463.js",
+    "static/js/2.d3a38872.chunk.js",
+    "static/css/main.9aaacb97.chunk.css",
+    "static/js/main.f3e65583.chunk.js"
+  ]
+}
