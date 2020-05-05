@@ -1,0 +1,15 @@
+div.menu-container {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+}
+
+a {
+  margin-bottom: 20px;
+  font-size: larger;
+}
+a:first-of-type {
+  margin-top: 50px;
+}
