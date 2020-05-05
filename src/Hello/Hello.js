@@ -12,6 +12,7 @@ const Hello = () => {
           <p className="hello">
             Hello,
             I'm Ty Mondragon!
+            I like to make web apps
             {/* scroll to find out more about me<br></br> */}
           </p>
       </div>
