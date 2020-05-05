@@ -1,13 +1,13 @@
 import React from 'react'
 import Pdf from '../../src/assets/tm_resume.pdf'
 const StayConnected = () => {
-
   return(
     <div className="stay-connected page">
       <br></br>
       <p>
-        Stay Connected!<br></br>
-        <ul>
+        Stay Connected!
+      </p>
+      <ul>
           <li>
             <a href="mailto:tymondragon@gmail.com">Email</a>
           </li>
@@ -15,16 +15,12 @@ const StayConnected = () => {
             <a href={Pdf} target="_blank">Resumé</a>
           </li>
           <li>
-            <a href="">Email</a>
+            <a href="https://www.linkedin.com/in/tymondragon/">LinkedIn</a>
           </li>
           <li>
-            <a href="">Email</a>
+            <a href="https://github.com/tymondragon">Github</a>
           </li>
-
-      • LinkedIn<br></br>
-      • Github<br></br>
         </ul>
-      </p>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import Hello from './Hello/Hello'
 import Skills from './Skills'
-import RecentWork from './RecentWork'
+import RecentWork from './RecentWork/RecentWork'
 import WhoAmI from './WhoAmI'
 import StayConnected from './StayConnected/StayConnected'
 import Menu from './Menu/Menu'
@@ -64,7 +64,7 @@ class App extends Component {
     return (
         <div className="wrapper">
           <Menu scrollTo={ this.scrollTo }/>
-          <Element  name="hello">
+          <Element name="hello">
             <Hello/>
           </Element>
           <Element name="whoami">
