@@ -63,7 +63,7 @@ class App extends Component {
   render() {
     return (
         <div className="wrapper">
-          <Menu scrollTo={ this.scrollTo }/>
+          {/* <Menu scrollTo={ this.scrollTo }/> */}
           <Element name="hello">
             <Hello/>
           </Element>
