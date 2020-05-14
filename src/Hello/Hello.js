@@ -4,7 +4,6 @@ import Ty from '../assets/deep_ty.jpg'
 import '../App.css'
 import './Hello.css'
 
-{/* p.hello{My website is }+bold{COMING SOON}{.Until then feel free to reach out or view my resumé.}) */ }
 const Hello = () => {
   return (
     // <div className="header page">

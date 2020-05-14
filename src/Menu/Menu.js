@@ -7,7 +7,7 @@ const Menu = ({scrollTo}) => {
         {/* <ul>
           <li> */}
         <div className="menu-container">
-            <a onClick={(e) => { scrollTo(e) }} id="hello">Hello</a>
+            {/* <a onClick={(e) => { scrollTo(e) }} id="hello">Hello</a> */}
           {/* </li> */}
           {/* <li>
             <a onClick={(e)=>{scrollTo(e)}} id="whoami">Who Am I?</a></li>
@@ -18,7 +18,7 @@ const Menu = ({scrollTo}) => {
             <a onClick={(e)=>{scrollTo(e)}} id="recentwork">Recent Work</a>
           </li> */}
           {/* <li> */}
-            <a onClick={(e)=>{scrollTo(e)}} id="stayconnected">Stay Connected</a>
+            {/* <a onClick={(e)=>{scrollTo(e)}} id="stayconnected">Stay Connected</a> */}
           {/* </li>
         </ul> */}
         </div>

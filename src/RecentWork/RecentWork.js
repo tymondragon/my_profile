@@ -17,8 +17,8 @@ const RecentWork = () => {
       <br></br>
       <p>
         Recent Work
-      <a href={projects.memory.link} target="_blank">Let's Play Memory!</a>
-        <img src={projects.memory.image}/>
+      <a href={projects.memory.link} target="_blank" rel="noopener noreferrer">Let's Play Memory!</a>
+        <img src={projects.memory.image} alt="Let's Play Memory"/>
       • FootNotes<br></br>
       • FakerFact<br></br>
       • SplattAR<br></br>

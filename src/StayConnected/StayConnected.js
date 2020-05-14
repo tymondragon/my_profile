@@ -11,7 +11,7 @@ const StayConnected = () => {
             <a href="mailto:hello@tymondragon.com">Email</a>
           </li>
           <li>
-            <a href={Pdf} target="_blank">Resumé</a>
+          <a href={Pdf} target="_blank" rel="noopener noreferrer">Resumé</a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/tymondragon/">LinkedIn</a>
