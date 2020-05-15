@@ -84,6 +84,15 @@ div.sticky {
   background: rgba(255, 255, 255, 0.5);
 }
 
+@media only screen and (max-width: 600px) {
+  .sticky {
+    width: 75%;
+  }
+  .hello {
+    font-size: inherit;
+  }
+}
+
 @keyframes App-skull-spin {
   from {
     transform: rotate(0deg);

@@ -1,8 +1,8 @@
 .hello {
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
 }
 
-.App-skull2{
+.App-skull2 {
   /* animation: App-skull2-spin infinite 20s linear; */
   height: 15vmin;
   position: relative;
@@ -18,4 +18,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  p.hello {
+    width: 75%;
+  }
 }
