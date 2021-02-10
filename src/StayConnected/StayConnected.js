@@ -1,5 +1,5 @@
 import React from 'react'
-import Pdf from '../../src/assets/tm_resume.pdf'
+import Pdf from '../../src/assets/TyMondragonResume.PDF'
 import './StayConnected.css'
 
 const StayConnected = () => {
